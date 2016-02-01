@@ -1,0 +1,202 @@
+---
+title: "Impact of Weather Events in US on Health & Economy"  
+output: html_document  
+---
+
+Weather events have impact on the peoples health and economy. The idea of this project it to identify top events that have the most impact on health & Economy.
+Data published by National Climatic Data Center will be used for analysis. 
+
+## Synopsis
+
+Results of the analysis of starm event database reveal that Heat has the most impact on the population followed by the Tornado and Floods are the events that cause most damage followed by hurricanes. Subset of the data was selected from analysis purpose (events registered after 1-Jan-1996) as most of the events do not have data prior to 1-Jan-1996.
+
+## Data Processing
+
+The data for Storm Data Events is sourced from National Climatic Data Center. [Here](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2) is the link for the data file. 
+
+There is also some documentation of the database available. Here you will find how some of the variables are constructed/defined.  
+  * National Weather Service [Storm Data Documentation](https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2Fpd01016005curr.pdf)  
+  * National Climatic Data Center Storm Events [FAQ](https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2FNCDC%20Storm%20Events-FAQ%20Page.pdf)  
+    
+```{r cache=TRUE}
+stormdata<-read.csv('repdata_data_StormData.csv.bz2')
+stormdata$EVTYPE=as.character(stormdata$EVTYPE)
+```
+
+The EVTYPE information in the 'repdata_data_StormData.csv.bz2' needs some tranformation before data can be analyzed. It has issues like  
+
+1) Spelling  
+    example: 
+      * BEACH EROSIN  
+      * AVALANCE
+    
+2) Event mapped with multiple categories  
+    example:  
+      * BLIZZARD/HEAVY SNOW  
+    
+3) Abbrevations & special characters  
+    example:
+      * BLOWING SNOW & EXTREME WIND CH  
+      * BLOWING SNOW- EXTREME WIND CHI  
+      * BLOWING SNOW/EXTREME WIND CHIL  
+             
+There are about 977 distinct in events 'repdata_data_StormData.csv.bz2'.  
+
+```{r}
+#no. of unique EVTYPE
+length(unique(trimws(stormdata$EVTYPE)))
+```
+
+These 977 events have been mapped to one of the following storm data events  
+
+```
+1. Astronomical Low Tide                  17. Funnel Cloud                          33. Marine Thunderstorm Wind 
+2. Avalanche                              18. Freezing Fog                          34. Rip Current 
+3. Blizzard                               19. Hail                                  35. Seiche 
+4. Coastal Flood                          20. Heat                                  36. Sleet
+5. Cold/Wind Chill                        21. Heavy Rain                            37. Storm Surge/Tid 
+6. Debris Flow                            22. Heavy Snow                            38. Strong Wind
+7. Dense Fog                              23. High Surf                             39. Thunderstorm Wind 
+8. Dense Smoke                            24. High Wind                             40. Tornado
+9. Drought                                25. Hurricane (Typhoon)                   41. Tropical Depression 
+10. Dust Devil                            26. Ice Storm                             42. Tropical Storm 
+11. Dust Storm                            27. Lake-Effect Snow                      43. Tsunami
+12. Excessive Heat                        28. Lakeshore Flood                       44. Volcanic Ash
+13. Extreme Cold/Wind Chill               29. Lightning                             45. Waterspout 
+14. Flash Flood                           30. Marine Hail                           46. Wildfire
+15. Flood                                 31. Marine High Wind                      47. Winter Storm 
+16. Frost/Freeze                          32. Marine Strong Wind                    48. Winter Weather
+```         
+
+Reporting will be done on the above events. The event list has be sourced from 
+[Storm Data Event List](https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2Fpd01016005curr.pdf) section 2.1.1 on page 6.
+
+The mapping of all EVTYPES to Storm Data Events is defined in **events.csv** file. Click [here](events.csv). A new column with name "event_type" is used to capture the storm data event.
+
+```{r cache=TRUE}
+library(knitr)
+library(dplyr)
+events<-read.csv('events.csv',header=TRUE,colClasses = "character")
+
+#if event_type has comma, replace it with space character
+stormdata$event_type<-lapply(stormdata$EVTYPE, function (x) {events[events$EVTYPE==gsub(","," ",trimws(c(x))),]$EVENT})
+stormdata$event_type=as.factor(as.character(stormdata$event_type))
+```
+
+Data for most of the events is available from  01-Jan-1996.  
+
+```{r cache=TRUE}
+library(dplyr)
+stormdata$BGN_DATE<-as.Date(as.character(stormdata$BGN_DATE),format="%m/%d/%Y %H:%M:%S")
+gdata<-group_by(stormdata,EVTYPE)
+rdata<-summarize(gdata,bdate=min(BGN_DATE))
+length(rdata[rdata$bdate < as.Date("1/1/1996","%m/%d/%Y"),]$EVTYPE)
+```
+
+For analysis purpose data from 01-Jan-1996 is used.  
+
+```{r cache=TRUE}
+dataset<-stormdata[stormdata$BGN_DATE >=  as.Date("1/1/1996","%m/%d/%Y"),]
+```
+
+
+For analysics economic impact value of the property/crop damaged will be calculated using the fields PROPDMG/CROPDMP and PROPDMGEXP/CROPDMGEXP. PROPDMGEXP column has exponential value to the power of 10. Two new columns "PROPAMOUNT" & "CROPAMOUNT" are introduced to  captured the value of the damage.  
+
+```{r cache=TRUE}
+expfunc<-function (x) {
+        
+        if (x=='') return(0)
+        else if (x=='+') return(0)
+        else if (x=='-') return(0)
+        else if (x=='?') return(0)
+        else if (x %in% c('h','H')) return(2)
+        else if (x %in% c('k','K')) return(3)
+        else if (x %in% c('m','M')) return(6)
+        else if (x %in% c('b','B')) return(9)
+        else return(as.numeric(as.character(x)))
+      }
+dataset$EXPONUM<-sapply(dataset$PROPDMGEXP,FUN=expfunc)
+dataset$PROPAMOUNT<- dataset$PROPDMG * (10 ** dataset$EXPONUM)
+
+dataset$EXPONUM<-sapply(dataset$CROPDMGEXP,FUN=expfunc)
+dataset$CROPAMOUNT<- dataset$CROPDMG * (10 ** dataset$EXPONUM)
+```
+
+## Analyze and identify most Harmful Events
+
+Aggregate  fatalities and injuries based on events
+
+```{r cache=TRUE}
+gdata<-group_by(dataset,event_type)
+harmfuldata<-summarize(gdata,fatalities=sum(FATALITIES),injuries=sum(INJURIES))
+
+fatalities<-head(harmfuldata[order(harmfuldata$fatalities,decreasing =TRUE),], 5)
+injuries<-head(harmfuldata[order(harmfuldata$injuries,decreasing=TRUE),], 5)
+```
+
+Top 5 events that are most deaths are
+
+```{r}
+fatalities[,c('event_type','fatalities')]
+```
+
+Top 5 events that are most inuries are
+
+```{r}
+injuries[,c('event_type','injuries')]
+```
+
+##Analyze impact of stormdata events on economy
+
+Aggreggate the damages to the properties and crops
+
+```{r cache=TRUE}
+
+gdata<-group_by(dataset,event_type)
+ecodata<-summarize(gdata,TOTALPROPDMG=sum(PROPAMOUNT),TOTALCROPDMG=sum(CROPAMOUNT))
+
+properties<-head(ecodata[order(ecodata$TOTALPROPDMG,decreasing =TRUE),], 5)
+crops<-head(ecodata[order(ecodata$TOTALCROPDMG,decreasing=TRUE),], 5)
+
+ecodata$TOTALDMG<-(ecodata$TOTALPROPDMG+ecodata$TOTALCROPDMG)/1000000
+
+totaldmg<-head(ecodata[order(ecodata$TOTALDMG,decreasing=TRUE),], 5)
+
+```
+
+Top 5 events that caused most property damages
+
+```{r}
+properties[,c('event_type','TOTALPROPDMG')]
+```
+
+Top 5 events that cause most crop damages
+
+```{r}
+crops[,c('event_type','TOTALCROPDMG')]
+```
+
+## Results Summary
+
+The following two bar plots shows the top 5 events having most impact on the population health.
+
+```{r}
+
+barplot(as.numeric(fatalities$fatalities),names.arg=fatalities$event_type,xlab="Events", ylab="Fatalities", horiz=FALSE,main="Events having most fatalities")
+
+barplot(injuries$injuries,names.arg=injuries$event_type,xlab="Events",ylab="Injuries",horiz=FALSE,main="Events having most injuries")
+
+```
+
+The following barplot show the top 5 events that have most impact of the economy
+
+```{r}
+barplot(totaldmg$TOTALDMG,names.arg=totaldmg$event_type,xlab="Events",ylab="Total Damage (in millons)",horiz=FALSE,main="Events having most impact on the economy", las="1")
+#lines(totaldmg$TOTALDMG,names.arg=totaldmg$event_type,lwd="1")
+```
+
+The following table show the top 5 events that most impact on the economy. TOTALDMG is in millions.
+
+```{r}
+totaldmg[,c('event_type','TOTALDMG')]
+```

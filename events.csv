@@ -1,0 +1,978 @@
+EVTYPE,EVENT
+?,Others
+ABNORMAL WARMTH,Heat
+ABNORMALLY DRY,Heat
+ABNORMALLY WET,Heavy Rain
+ACCUMULATED SNOWFALL,Heavy Snow
+AGRICULTURAL FREEZE,Frost/Freeze
+APACHE COUNTY,Others
+ASTRONOMICAL LOW TIDE,Astronomical Low Tide
+ASTRONOMICAL HIGH TIDE,High Surf
+AVALANCE,Avalanche
+AVALANCHE,Avalanche
+BEACH EROSIN,High Surf
+BEACH EROSION,High Surf
+BEACH EROSION/COASTAL FLOOD,High Surf
+BEACH FLOOD,Coastal Flood
+BELOW NORMAL PRECIPITATION,Others
+BITTER WIND CHILL TEMPERATURES,Cold/Wind Chill
+BITTER WIND CHILL,Cold/Wind Chill
+BLACK ICE,Frost/Freeze
+BLIZZARD AND EXTREME WIND CHIL,Blizzard
+BLIZZARD AND HEAVY SNOW,Blizzard
+BLIZZARD WEATHER,Blizzard
+BLIZZARD,Blizzard
+BLIZZARD/FREEZING RAIN,Blizzard
+BLIZZARD/HEAVY SNOW,Blizzard
+BLIZZARD/HIGH WIND,Blizzard
+BLIZZARD/WINTER STORM,Blizzard
+BLOW-OUT TIDE,Storm Surge/Tide
+BLOW-OUT TIDES,Storm Surge/Tide
+BLOWING DUST,Dust Storm
+BLOWING SNOW & EXTREME WIND CH,Blizzard
+BLOWING SNOW,Blizzard
+BLOWING SNOW- EXTREME WIND CHI,Blizzard
+BLOWING SNOW/EXTREME WIND CHIL,Blizzard
+BREAKUP FLOODING,Flood
+BRUSH FIRE,Wildfire
+BRUSH FIRES,Wildfire
+Beach Erosion,High Surf
+Black Ice,Frost/Freeze
+Blizzard Summary,Blizzard
+Blowing Snow,Blizzard
+COASTAL  FLOODING/EROSION,Coastal Flood
+COASTAL EROSION,Coastal Flood
+COASTAL FLOOD,Coastal Flood
+COASTAL FLOODING,Coastal Flood
+COASTAL FLOODING/EROSION,Coastal Flood
+COASTAL STORM,Storm Surge/Tide
+COASTAL SURGE,Storm Surge/Tide
+COASTAL/TIDAL FLOOD,Coastal Flood
+COASTALFLOOD,Coastal Flood
+COASTALSTORM,Storm Surge/Tide
+COLD AIR FUNNEL,Funnel Cloud
+COLD AIR FUNNELS,Funnel Cloud
+COLD AIR TORNADO,Tornado
+COLD AND FROST,Frost/Freeze
+COLD AND SNOW,Frost/Freeze
+COLD AND WET CONDITIONS,Frost/Freeze
+COLD TEMPERATURES,Frost/Freeze
+COLD WAVE,Frost/Freeze
+COLD WEATHER,Frost/Freeze
+COLD WIND CHILL TEMPERATURES,Cold/Wind Chill
+COLD,Cold/Wind Chill
+COLD/WIND CHILL,Cold/Wind Chill
+COLD/WINDS,Cold/Wind Chill
+COOL AND WET,Cold/Wind Chill
+COOL SPELL,Cold/Wind Chill
+CSTL FLOODING/EROSION,Coastal Flood
+Coastal Flood,Coastal Flood
+Coastal Flooding,Coastal Flood
+Coastal Storm,Storm Surge/Tide
+Cold Temperature,Frost/Freeze
+Cold and Frost,Frost/Freeze
+Cold,Cold/Wind Chill
+DAM BREAK,Flash Flood
+DAM FAILURE,Flash Flood
+DAMAGING FREEZE,Frost/Freeze
+DEEP HAIL,Hail
+DENSE FOG,Dense Fog
+DENSE SMOKE,Dense Smoke
+DOWNBURST WINDS,Thunderstorm Wind
+DOWNBURST,Thunderstorm Wind
+DRIEST MONTH,Others
+DROUGHT,Drought
+DROUGHT/EXCESSIVE HEAT,Drought
+DROWNING,Flood
+DRY CONDITIONS,Others
+DRY HOT WEATHER,Heat
+DRY MICROBURST 50,Thunderstorm Wind
+DRY MICROBURST 53,Thunderstorm Wind
+DRY MICROBURST 58,Thunderstorm Wind
+DRY MICROBURST 61,Thunderstorm Wind
+DRY MICROBURST 84,Thunderstorm Wind
+DRY MICROBURST WINDS,Thunderstorm Wind
+DRY MICROBURST,Thunderstorm Wind
+DRY MIRCOBURST WINDS,Thunderstorm Wind
+DRY PATTERN,Others
+DRY SPELL,Others
+DRY WEATHER,Others
+DRY,Others
+DRYNESS,Others
+DUST DEVEL,Dust Devil
+DUST DEVIL WATERSPOUT,Dust Devil
+DUST DEVIL,Dust Devil
+DUST STORM,Dust Storm
+DUST STORM/HIGH WINDS,Dust Storm
+DUSTSTORM,Dust Storm
+Damaging Freeze,Frost/Freeze
+Drifting Snow,Winter Weather
+Dust Devil,Dust Devil
+EARLY FREEZE,Frost/Freeze
+EARLY FROST,Frost/Freeze
+EARLY RAIN,Heavy Rain
+EARLY SNOW,Heavy Snow
+EARLY SNOWFALL,Heavy Snow
+EXCESSIVE HEAT,Heat
+EXCESSIVE HEAT/DROUGHT,Drought
+EXCESSIVE PRECIPITATION,Heavy Rain
+EXCESSIVE RAIN,Heavy Rain
+EXCESSIVE RAINFALL,Heavy Rain
+EXCESSIVE SNOW,Heavy Snow
+EXCESSIVE WETNESS,Heavy Rain
+EXCESSIVE,Others
+EXCESSIVELY DRY,Others
+EXTREME COLD,Frost/Freeze
+EXTREME COLD/WIND CHILL,Frost/Freeze
+EXTREME HEAT,Heat
+EXTREME WIND CHILL,Cold/Wind Chill
+EXTREME WIND CHILL/BLOWING SNO,Cold/Wind Chill
+EXTREME WIND CHILLS,Cold/Wind Chill
+EXTREME WINDCHILL TEMPERATURES,Cold/Wind Chill
+EXTREME WINDCHILL,Cold/Wind Chill
+EXTREME/RECORD COLD,Cold/Wind Chill
+EXTREMELY WET,Heavy Rain
+Early Frost,Frost/Freeze
+Early snowfall,Heavy Snow
+Erosion/Cstl Flood,Coastal Flood
+Excessive Cold,Frost/Freeze
+Extended Cold,Frost/Freeze
+Extreme Cold,Frost/Freeze
+FALLING SNOW/ICE,Heavy Snow
+FIRST FROST,Frost/Freeze
+FIRST SNOW,Frost/Freeze
+FLASH FLOOD - HEAVY RAIN,Flash Flood
+FLASH FLOOD FROM ICE JAMS,Flash Flood
+FLASH FLOOD LANDSLIDES,Flash Flood
+FLASH FLOOD WINDS,Flash Flood
+FLASH FLOOD,Flash Flood
+FLASH FLOOD/ FLOOD,Flash Flood
+FLASH FLOOD/ STREET,Flash Flood
+FLASH FLOOD/,Flash Flood
+FLASH FLOOD/FLOOD,Flash Flood
+FLASH FLOOD/HEAVY RAIN,Flash Flood
+FLASH FLOOD/LANDSLIDE,Flash Flood
+FLASH FLOODING,Flash Flood
+FLASH FLOODING/FLOOD,Flash Flood
+FLASH FLOODING/THUNDERSTORM WI,Flash Flood
+FLASH FLOODS,Flash Flood
+FLASH FLOOODING,Flash Flood
+FLOOD & HEAVY RAIN,Flood
+FLOOD FLASH,Flash Flood
+FLOOD FLOOD/FLASH,Flash Flood
+FLOOD WATCH/,Flash Flood
+FLOOD,Flood
+FLOOD/FLASH FLOOD,Flash Flood
+FLOOD/FLASH FLOODING,Flash Flood
+FLOOD/FLASH,Flash Flood
+FLOOD/FLASH/FLOOD,Flash Flood
+FLOOD/FLASHFLOOD,Flash Flood
+FLOOD/RAIN/WIND,Flood
+FLOOD/RAIN/WINDS,Flood
+FLOOD/RIVER FLOOD,Flood
+FLOODING,Flood
+FLOODING/HEAVY RAIN,Flood
+FLOODS,Flood
+FOG AND COLD TEMPERATURES,Freezing Fog
+FOG,Dense Fog
+FOREST FIRES,Wildfire
+FREEZE,Frost/Freeze
+FREEZING DRIZZLE AND FREEZING,Frost/Freeze
+FREEZING DRIZZLE,Frost/Freeze
+FREEZING FOG,Freezing Fog
+FREEZING RAIN AND SLEET,Winter Weather
+FREEZING RAIN AND SNOW,Winter Weather
+FREEZING RAIN SLEET AND LIGHT,Winter Weather
+FREEZING RAIN SLEET AND,Winter Weather
+FREEZING RAIN,Winter Weather
+FREEZING RAIN/SLEET,Winter Weather
+FREEZING RAIN/SNOW,Winter Weather
+FROST,Frost/Freeze
+FROST/FREEZE,Frost/Freeze
+FROST\FREEZE,Frost/Freeze
+FUNNEL CLOUD,Funnel Cloud
+FUNNEL CLOUD.,Funnel Cloud
+FUNNEL CLOUD/HAIL,Funnel Cloud
+FUNNEL CLOUDS,Funnel Cloud
+FUNNEL,Funnel Cloud
+FUNNELS,Funnel Cloud
+Flood,Flood
+Flood/Flash Flood,Flash Flood
+Flood/Strong Wind,Flood
+Freeze,Frost/Freeze
+Freezing Drizzle,Frost/Freeze
+Freezing Fog,Freezing Fog
+Freezing Rain,Winter Weather
+Freezing Spray,Winter Weather
+Freezing drizzle,Frost/Freeze
+Freezing rain,Winter Weather
+Frost,Frost/Freeze
+Frost/Freeze,Frost/Freeze
+Funnel Cloud,Funnel Cloud
+GLAZE,Ice Storm
+GLAZE ICE,Ice Storm
+GLAZE/ICE STORM,Ice Storm
+GRADIENT WIND,Tropical Depression
+GRADIENT WINDS,Tropical Depression
+GRASS FIRES,Wildfire
+GROUND BLIZZARD,Blizzard
+GUSTNADO AND,Thunderstorm Wind
+GUSTNADO,Thunderstorm Wind
+GUSTY LAKE WIND,Thunderstorm Wind
+GUSTY THUNDERSTORM WIND,Thunderstorm Wind
+GUSTY THUNDERSTORM WINDS,Thunderstorm Wind
+GUSTY WIND,Thunderstorm Wind
+GUSTY WIND/HAIL,Thunderstorm Wind
+GUSTY WIND/HVY RAIN,Thunderstorm Wind
+GUSTY WINDS,Thunderstorm Wind
+Glaze,Ice Storm
+Gradient wind,Tropical Depression
+Gusty Wind,Thunderstorm Wind
+Gusty Winds,Thunderstorm Wind
+Gusty wind/rain,Thunderstorm Wind
+Gusty winds,Thunderstorm Wind
+HAIL 0.75,Hail
+HAIL 0.88,Hail
+HAIL 075,Hail
+HAIL 088,Hail
+HAIL 1.00,Hail
+HAIL 1.75),Hail
+HAIL 1.75,Hail
+HAIL 100,Hail
+HAIL 125,Hail
+HAIL 150,Hail
+HAIL 175,Hail
+HAIL 200,Hail
+HAIL 225,Hail
+HAIL 275,Hail
+HAIL 450,Hail
+HAIL 75,Hail
+HAIL 80,Hail
+HAIL 88,Hail
+HAIL ALOFT,Hail
+HAIL DAMAGE,Hail
+HAIL FLOODING,Hail
+HAIL STORM,Hail
+HAIL,Hail
+HAIL/ICY ROADS,Hail
+HAIL/WIND,Hail
+HAIL/WINDS,Hail
+HAILSTORM,Hail
+HAILSTORMS,Hail
+HARD FREEZE,Frost/Freeze
+HAZARDOUS SURF,High Surf
+HEAT DROUGHT,Heat
+HEAT WAVE DROUGHT,Heat
+HEAT WAVE,Heat
+HEAT WAVES,Heat
+HEAT,Heat
+HEAT/DROUGHT,Heat
+HEAVY LAKE SNOW,Lake-Effect Snow
+HEAVY MIX,Winter Weather
+HEAVY PRECIPATATION,Heavy Rain
+HEAVY PRECIPITATION,Heavy Rain
+HEAVY RAIN AND FLOOD,Heavy Rain
+HEAVY RAIN EFFECTS,Heavy Rain
+HEAVY RAIN,Heavy Rain
+HEAVY RAIN/FLOODING,Heavy Rain
+HEAVY RAIN/LIGHTNING,Heavy Rain
+HEAVY RAIN/MUDSLIDES/FLOOD,Heavy Rain
+HEAVY RAIN/SEVERE WEATHER,Heavy Rain
+HEAVY RAIN/SMALL STREAM URBAN,Heavy Rain
+HEAVY RAIN/SNOW,Heavy Rain
+HEAVY RAIN/URBAN FLOOD,Heavy Rain
+HEAVY RAIN/WIND,Heavy Rain
+HEAVY RAIN; URBAN FLOOD WINDS;,Heavy Rain
+HEAVY RAINFALL,Heavy Rain
+HEAVY RAINS,Heavy Rain
+HEAVY RAINS/FLOODING,Heavy Rain
+HEAVY SEAS,Heavy Rain
+HEAVY SHOWER,Heavy Rain
+HEAVY SHOWERS,Heavy Rain
+HEAVY SNOW   FREEZING RAIN,Ice Storm
+HEAVY SNOW & ICE,Ice Storm
+HEAVY SNOW AND HIGH WINDS,Ice Storm
+HEAVY SNOW AND ICE STORM,Ice Storm
+HEAVY SNOW AND ICE,Heavy Snow
+HEAVY SNOW AND STRONG WINDS,Ice Storm
+HEAVY SNOW AND,Heavy Snow
+HEAVY SNOW ANDBLOWING SNOW,Ice Storm
+HEAVY SNOW SQUALLS,Heavy Snow
+HEAVY SNOW,Heavy Snow
+HEAVY SNOW-SQUALLS,Heavy Snow
+HEAVY SNOW/BLIZZARD,Heavy Snow
+HEAVY SNOW/BLIZZARD/AVALANCHE,Heavy Snow
+HEAVY SNOW/BLOWING SNOW,Heavy Snow
+HEAVY SNOW/FREEZING RAIN,Heavy Snow
+HEAVY SNOW/HIGH WIND,Heavy Snow
+HEAVY SNOW/HIGH WINDS & FLOOD,Heavy Snow
+HEAVY SNOW/HIGH WINDS,Heavy Snow
+HEAVY SNOW/HIGH WINDS/FREEZING,Heavy Snow
+HEAVY SNOW/HIGH,Heavy Snow
+HEAVY SNOW/ICE STORM,Ice Storm
+HEAVY SNOW/ICE,Heavy Snow
+HEAVY SNOW/SLEET,Heavy Snow
+HEAVY SNOW/SQUALLS,Heavy Snow
+HEAVY SNOW/WIND,Heavy Snow
+HEAVY SNOW/WINTER STORM,Ice Storm
+HEAVY SNOWPACK,Heavy Snow
+HEAVY SURF COASTAL FLOODING,High Surf
+HEAVY SURF,High Surf
+HEAVY SURF/HIGH SURF,High Surf
+HEAVY SWELLS,High Surf
+HEAVY WET SNOW,Heavy Snow
+HIGH  SWELLS,High Surf
+HIGH  WINDS,High Wind
+HIGH SEAS,High Surf
+HIGH SURF ADVISORIES,High Surf
+HIGH SURF ADVISORY,High Surf
+HIGH SURF,High Surf
+HIGH SWELLS,High Surf
+HIGH TEMPERATURE RECORD,Heat
+HIGH TIDES,High Surf
+HIGH WATER,High Surf
+HIGH WAVES,High Surf
+HIGH WIND (G40),High Wind
+HIGH WIND 48,High Wind
+HIGH WIND 63,High Wind
+HIGH WIND 70,High Wind
+HIGH WIND AND HEAVY SNOW,High Wind
+HIGH WIND AND HIGH TIDES,High Wind
+HIGH WIND AND SEAS,High Wind
+HIGH WIND DAMAGE,High Wind
+HIGH WIND,High Wind
+HIGH WIND/ BLIZZARD,High Wind
+HIGH WIND/BLIZZARD,High Wind
+HIGH WIND/BLIZZARD/FREEZING RA,High Wind
+HIGH WIND/HEAVY SNOW,High Wind
+HIGH WIND/LOW WIND CHILL,High Wind
+HIGH WIND/SEAS,High Wind
+HIGH WIND/WIND CHILL,High Wind
+HIGH WIND/WIND CHILL/BLIZZARD,High Wind
+HIGH WINDS 55,High Wind
+HIGH WINDS 57,High Wind
+HIGH WINDS 58,High Wind
+HIGH WINDS 63,High Wind
+HIGH WINDS 66,High Wind
+HIGH WINDS 67,High Wind
+HIGH WINDS 73,High Wind
+HIGH WINDS 76,High Wind
+HIGH WINDS 80,High Wind
+HIGH WINDS 82,High Wind
+HIGH WINDS AND WIND CHILL,High Wind
+HIGH WINDS DUST STORM,High Wind
+HIGH WINDS HEAVY RAINS,High Wind
+HIGH WINDS,High Wind
+HIGH WINDS/,High Wind
+HIGH WINDS/COASTAL FLOOD,High Wind
+HIGH WINDS/COLD,High Wind
+HIGH WINDS/FLOODING,High Wind
+HIGH WINDS/HEAVY RAIN,High Wind
+HIGH WINDS/SNOW,High Wind
+HIGH,Others
+HIGHWAY FLOODING,Flood
+HOT PATTERN,Heat
+HOT SPELL,Heat
+HOT WEATHER,Heat
+HOT/DRY PATTERN,Heat
+HURRICANE EMILY,Hurricane (Typhoon)
+HURRICANE ERIN,Hurricane (Typhoon)
+HURRICANE FELIX,Hurricane (Typhoon)
+HURRICANE GORDON,Hurricane (Typhoon)
+HURRICANE OPAL,Hurricane (Typhoon)
+HURRICANE OPAL/HIGH WINDS,Hurricane (Typhoon)
+HURRICANE,Hurricane (Typhoon)
+HURRICANE-GENERATED SWELLS,Hurricane (Typhoon)
+HURRICANE/TYPHOON,Hurricane (Typhoon)
+HVY RAIN,Heavy Rain
+HYPERTHERMIA/EXPOSURE,Excessive Heat
+HYPOTHERMIA,Excessive Heat
+HYPOTHERMIA/EXPOSURE,Excessive Heat
+Hail(0.75),Hail
+Heat Wave,Heat
+Heatburst,Heat
+Heavy Precipitation,Heavy Rain
+Heavy Rain and Wind,Heavy Rain
+Heavy Rain,Heavy Rain
+Heavy Rain/High Surf,Heavy Rain
+Heavy Surf,High Surf
+Heavy rain,Heavy Rain
+Heavy snow shower,Heavy Snow
+Heavy surf and wind,High Surf
+High Surf,High Surf
+High Wind,High Wind
+Hot and Dry,Heat
+Hurricane Edouard,Hurricane (Typhoon)
+Hypothermia/Exposure,Excessive Heat
+ICE AND SNOW,Ice Storm
+ICE FLOES,Ice Storm
+ICE JAM FLOODING,Flash Flood
+ICE JAM,Flash Flood
+ICE ON ROAD,Ice Storm
+ICE PELLETS,Ice Storm
+ICE ROADS,Ice Storm
+ICE STORM AND SNOW,Ice Storm
+ICE STORM,Ice Storm
+ICE STORM/FLASH FLOOD,Ice Storm
+ICE,Ice Storm
+ICE/SNOW,Ice Storm
+ICE/STRONG WINDS,Ice Storm
+ICY ROADS,Ice Storm
+Ice Fog,Ice Storm
+Ice jam flood (minor,Flash Flood
+Ice/Snow,Ice Storm
+Icestorm/Blizzard,Ice Storm
+Icy Roads,Ice Storm
+LACK OF SNOW,Others
+LAKE EFFECT SNOW,Lake-Effect Snow
+LAKE FLOOD,Lakeshore Flood
+LAKE-EFFECT SNOW,Lake-Effect Snow
+LAKESHORE FLOOD,Lakeshore Flood
+LANDSLIDE,Debris Flow
+LANDSLIDE/URBAN FLOOD,Debris Flow
+LANDSLIDES,Debris Flow
+LANDSLUMP,Debris Flow
+LANDSPOUT,Debris Flow
+LARGE WALL CLOUD,Thunderstorm Wind
+LATE FREEZE,Winter Storm
+LATE SEASON HAIL,Hail
+LATE SEASON SNOW,Heavy Snow
+LATE SNOW,Heavy Snow
+LIGHT FREEZING RAIN,Winter Storm
+LIGHT SNOW AND SLEET,Winter Storm
+LIGHT SNOW,Winter Storm
+LIGHT SNOW/FREEZING PRECIP,Winter Storm
+LIGHTING,Lightning
+LIGHTNING  WAUSEON,Lightning
+LIGHTNING AND HEAVY RAIN,Lightning
+LIGHTNING AND THUNDERSTORM WIN,Lightning
+LIGHTNING AND WINDS,Lightning
+LIGHTNING DAMAGE,Lightning
+LIGHTNING FIRE,Lightning
+LIGHTNING INJURY,Lightning
+LIGHTNING THUNDERSTORM WINDS,Thunderstorm Wind
+LIGHTNING THUNDERSTORM WINDSS,Thunderstorm Wind
+LIGHTNING,Lightning
+LIGHTNING.,Lightning
+LIGHTNING/HEAVY RAIN,Lightning
+LIGNTNING,Lightning
+LOCAL FLASH FLOOD,Flash Flood
+LOCAL FLOOD,Flash Flood
+LOCALLY HEAVY RAIN,Heavy Rain
+LOW TEMPERATURE RECORD,Cold/Wind Chill
+LOW TEMPERATURE,Cold/Wind Chill
+LOW WIND CHILL,Cold/Wind Chill
+Lake Effect Snow,Lake-Effect Snow
+Landslump,Debris Flow
+Late Season Snowfall,Heavy Snow
+Late-season Snowfall,Heavy Snow
+Light Snow,Winter Storm
+Light Snow/Flurries,Winter Storm
+Light Snowfall,Winter Storm
+Light snow,Winter Storm
+MAJOR FLOOD,Flood
+MARINE HAIL,Marine Hail
+MARINE HIGH WIND,Marine High Wind
+MARINE MISHAP,Others
+MARINE STRONG WIND,Marine Strong Wind
+MARINE THUNDERSTORM WIND,Marine Thunderstorm Wind
+MARINE TSTM WIND,Marine Thunderstorm Wind
+MICROBURST WINDS,Thunderstorm Wind
+MICROBURST,Thunderstorm Wind
+MILD PATTERN,Others
+MILD/DRY PATTERN,Others
+MINOR FLOOD,Flood
+MINOR FLOODING,Flood
+MIXED PRECIP,Winter Weather
+MIXED PRECIPITATION,Winter Weather
+MODERATE SNOW,Winter Weather
+MODERATE SNOWFALL,Winter Weather
+MONTHLY PRECIPITATION,Others
+MONTHLY RAINFALL,Others
+MONTHLY SNOWFALL,Others
+MONTHLY TEMPERATURE,Others
+MUD SLIDE,Debris Flow
+MUD SLIDES URBAN FLOODING,Debris Flow
+MUD SLIDES,Debris Flow
+MUD/ROCK SLIDE,Debris Flow
+MUDSLIDE,Debris Flow
+MUDSLIDE/LANDSLIDE,Debris Flow
+MUDSLIDES,Debris Flow
+Marine Accident,Others
+Metro Storm  May 26,Others
+Microburst,Thunderstorm Wind
+Mild and Dry Pattern,Others
+Minor Flooding,Flood
+Mixed Precipitation,Winter Weather
+Monthly Rainfall,Others
+Monthly Snowfall,Others
+Mountain Snows,Others
+Mudslide,Debris Flow
+Mudslides,Debris Flow
+NEAR RECORD SNOW,Heavy Snow
+NON SEVERE HAIL,Others
+NON TSTM WIND,Others
+NON-SEVERE WIND DAMAGE,Others
+NON-TSTM WIND,Others
+NONE,Others
+NORMAL PRECIPITATION,Others
+NORTHERN LIGHTS,Others
+No Severe Weather,Others
+OTHER,Others
+Other,Others
+PATCHY DENSE FOG,Dense Fog
+PATCHY ICE,Winter Weather
+PROLONG COLD,Winter Weather
+PROLONG COLD/SNOW,Winter Weather
+PROLONG WARMTH,Winter Weather
+PROLONGED RAIN,Winter Weather
+Prolong Cold,Winter Weather
+RAIN (HEAVY),Heavy Rain
+RAIN AND WIND,Heavy Rain
+RAIN,Heavy Rain
+RAIN/SNOW,Heavy Rain
+RAIN/WIND,Heavy Rain
+RAINSTORM,Heavy Rain
+RAPIDLY RISING WATER,Flood
+RECORD  COLD,Extreme Cold/Wind Chill
+RECORD COLD AND HIGH WIND,Extreme Cold/Wind Chill
+RECORD COLD,Extreme Cold/Wind Chill
+RECORD COLD/FROST,Extreme Cold/Wind Chill
+RECORD COOL,Extreme Cold/Wind Chill
+RECORD DRYNESS,Others
+RECORD HEAT WAVE,Excessive Heat
+RECORD HEAT,Excessive Heat
+RECORD HIGH TEMPERATURE,Excessive Heat
+RECORD HIGH TEMPERATURES,Excessive Heat
+RECORD HIGH,Excessive Heat
+RECORD LOW RAINFALL,Others
+RECORD LOW,Others
+RECORD PRECIPITATION,Heavy Rain
+RECORD RAINFALL,Heavy Rain
+RECORD SNOW,Heavy Snow
+RECORD SNOW/COLD,Heavy Snow
+RECORD SNOWFALL,Heavy Snow
+RECORD TEMPERATURE,Others
+RECORD TEMPERATURES,Others
+RECORD WARM TEMPS.,Heat
+RECORD WARM,Heat
+RECORD WARMTH,Heat
+RECORD/EXCESSIVE HEAT,Excessive Heat
+RECORD/EXCESSIVE RAINFALL,Heavy Rain
+RED FLAG CRITERIA,Others
+RED FLAG FIRE WX,Others
+REMNANTS OF FLOYD,Others
+RIP CURRENT,Rip Current
+RIP CURRENTS HEAVY SURF,Rip Current
+RIP CURRENTS,Rip Current
+RIP CURRENTS/HEAVY SURF,Rip Current
+RIVER AND STREAM FLOOD,Flash Flood
+RIVER FLOOD,Flash Flood
+RIVER FLOODING,Flash Flood
+ROCK SLIDE,Debris Flow
+ROGUE WAVE,High Surf
+ROTATING WALL CLOUD,Thunderstorm Wind
+ROUGH SEAS,High Surf
+ROUGH SURF,High Surf
+RURAL FLOOD,Flood
+Rain Damage,Heavy Rain
+Record Cold,Extreme Cold/Wind Chill
+Record Heat,Excessive Heat
+Record High,Excessive Heat
+Record May Snow,Heavy Snow
+Record Temperatures,Others
+Record Warmth,Heat
+Record Winter Snow,Heavy Snow
+Record dry month,Others
+Record temperature,Others
+River Flooding,Flash Flood
+SAHARAN DUST,Dust Storm
+SEICHE,Seiche
+SEVERE COLD,Cold/Wind Chill
+SEVERE THUNDERSTORM WINDS,Thunderstorm Wind
+SEVERE THUNDERSTORM,Thunderstorm Wind
+SEVERE THUNDERSTORMS,Thunderstorm Wind
+SEVERE TURBULENCE,Others
+SLEET & FREEZING RAIN,Sleet
+SLEET STORM,Sleet
+SLEET,Sleet
+SLEET/FREEZING RAIN,Sleet
+SLEET/ICE STORM,Sleet
+SLEET/RAIN/SNOW,Sleet
+SLEET/SNOW,Sleet
+SMALL HAIL,Hail
+SMALL STREAM AND URBAN FLOOD,Heavy Rain
+SMALL STREAM AND URBAN FLOODIN,Heavy Rain
+SMALL STREAM AND,Heavy Rain
+SMALL STREAM FLOOD,Heavy Rain
+SMALL STREAM FLOODING,Heavy Rain
+SMALL STREAM URBAN FLOOD,Heavy Rain
+SMALL STREAM,Heavy Rain
+SMALL STREAM/URBAN FLOOD,Heavy Rain
+SMOKE,Dense Smoke
+SNOW ACCUMULATION,Heavy Snow
+SNOW ADVISORY,Heavy Snow
+SNOW AND COLD,Heavy Snow
+SNOW AND HEAVY SNOW,Heavy Snow
+SNOW AND ICE STORM,Ice Storm
+SNOW AND ICE,Heavy Snow
+SNOW AND SLEET,Heavy Snow
+SNOW AND WIND,Heavy Snow
+SNOW DROUGHT,Heavy Snow
+SNOW FREEZING RAIN,Heavy Snow
+SNOW SHOWERS,Heavy Snow
+SNOW SLEET,Heavy Snow
+SNOW SQUALL,Heavy Snow
+SNOW SQUALLS,Heavy Snow
+SNOW,Heavy Snow
+SNOW- HIGH WIND- WIND CHILL,Heavy Snow
+SNOW/ BITTER COLD,Heavy Snow
+SNOW/ ICE,Heavy Snow
+SNOW/BLOWING SNOW,Heavy Snow
+SNOW/COLD,Heavy Snow
+SNOW/FREEZING RAIN,Heavy Snow
+SNOW/HEAVY SNOW,Heavy Snow
+SNOW/HIGH WINDS,Heavy Snow
+SNOW/ICE STORM,Heavy Snow
+SNOW/ICE,Heavy Snow
+SNOW/RAIN,Heavy Snow
+SNOW/RAIN/SLEET,Heavy Snow
+SNOW/SLEET,Heavy Snow
+SNOW/SLEET/FREEZING RAIN,Heavy Snow
+SNOW/SLEET/RAIN,Heavy Snow
+SNOWFALL RECORD,Heavy Snow
+SNOWMELT FLOODING,Heavy Snow
+SNOWSTORM,Heavy Snow
+SNOW\COLD,Heavy Snow
+SOUTHEAST,Others
+STORM FORCE WINDS,Storm Surge/Tide
+STORM SURGE,Storm Surge/Tide
+STORM SURGE/TIDE,Storm Surge/Tide
+STREAM FLOODING,Heavy Rain
+STREET FLOOD,Heavy Rain
+STREET FLOODING,Heavy Rain
+STRONG WIND GUST,Strong Wind
+STRONG WIND,Strong Wind
+STRONG WINDS,Strong Wind
+SUMMARY OF MARCH 24-25,Others
+SUMMARY OF MARCH 27,Others
+SUMMARY OF MARCH 29,Others
+Saharan Dust,Dust Storm
+Seasonal Snowfall,Others
+Small Hail,Hail
+Sml Stream Fld,Heavy Rain
+Snow Accumulation,Heavy Snow
+Snow Squalls,Heavy Snow
+Snow and Ice,Heavy Snow
+Snow and sleet,Heavy Snow
+Snow squalls,Heavy Snow
+Snow,Heavy Snow
+Strong Wind,Strong Wind
+Strong Winds,Strong Wind
+Strong winds,Strong Wind
+Summary August 10,Others
+Summary August 11,Others
+Summary August 17,Others
+Summary August 2-3,Others
+Summary August 21,Others
+Summary August 28,Others
+Summary August 4,Others
+Summary August 7,Others
+Summary August 9,Others
+Summary Jan 17,Others
+Summary July 23-24,Others
+Summary June 18-19,Others
+Summary June 5-6,Others
+Summary June 6,Others
+Summary Sept. 25-26,Others
+Summary September 20,Others
+Summary September 23,Others
+Summary September 3,Others
+Summary September 4,Others
+Summary of April 12,Others
+Summary of April 13,Others
+Summary of April 21,Others
+Summary of April 27,Others
+Summary of April 3rd,Others
+Summary of August 1,Others
+Summary of July 11,Others
+Summary of July 2,Others
+Summary of July 22,Others
+Summary of July 26,Others
+Summary of July 29,Others
+Summary of July 3,Others
+Summary of June 10,Others
+Summary of June 11,Others
+Summary of June 12,Others
+Summary of June 13,Others
+Summary of June 15,Others
+Summary of June 16,Others
+Summary of June 18,Others
+Summary of June 23,Others
+Summary of June 24,Others
+Summary of June 3,Others
+Summary of June 30,Others
+Summary of June 4,Others
+Summary of June 6,Others
+Summary of March 14,Others
+Summary of March 23,Others
+Summary of March 24,Others
+Summary of May 10,Others
+Summary of May 13,Others
+Summary of May 14,Others
+Summary of May 22 am,Others
+Summary of May 22 pm,Others
+Summary of May 22,Others
+Summary of May 26 am,Others
+Summary of May 26 pm,Others
+Summary of May 31 am,Others
+Summary of May 31 pm,Others
+Summary of May 9-10,Others
+Summary: Nov. 16,Others
+Summary: Nov. 6-7,Others
+Summary: Oct. 20-21,Others
+Summary: October 31,Others
+Summary: Sept. 18,Others
+THUDERSTORM WINDS,Thunderstorm Wind
+THUNDEERSTORM WINDS,Thunderstorm Wind
+THUNDERESTORM WINDS,Thunderstorm Wind
+THUNDERSNOW,Thunderstorm Wind
+THUNDERSTORM  WINDS,Thunderstorm Wind
+THUNDERSTORM DAMAGE TO,Thunderstorm Wind
+THUNDERSTORM DAMAGE,Thunderstorm Wind
+THUNDERSTORM HAIL,Thunderstorm Wind
+THUNDERSTORM W INDS,Thunderstorm Wind
+THUNDERSTORM WIND (G40),Thunderstorm Wind
+THUNDERSTORM WIND 50,Thunderstorm Wind
+THUNDERSTORM WIND 52,Thunderstorm Wind
+THUNDERSTORM WIND 56,Thunderstorm Wind
+THUNDERSTORM WIND 59 MPH,Thunderstorm Wind
+THUNDERSTORM WIND 59 MPH.,Thunderstorm Wind
+THUNDERSTORM WIND 59,Thunderstorm Wind
+THUNDERSTORM WIND 60 MPH,Thunderstorm Wind
+THUNDERSTORM WIND 65 MPH,Thunderstorm Wind
+THUNDERSTORM WIND 65MPH,Thunderstorm Wind
+THUNDERSTORM WIND 69,Thunderstorm Wind
+THUNDERSTORM WIND 98 MPH,Thunderstorm Wind
+THUNDERSTORM WIND G50,Thunderstorm Wind
+THUNDERSTORM WIND G51,Thunderstorm Wind
+THUNDERSTORM WIND G52,Thunderstorm Wind
+THUNDERSTORM WIND G55,Thunderstorm Wind
+THUNDERSTORM WIND G60,Thunderstorm Wind
+THUNDERSTORM WIND G61,Thunderstorm Wind
+THUNDERSTORM WIND TREES,Thunderstorm Wind
+THUNDERSTORM WIND,Thunderstorm Wind
+THUNDERSTORM WIND.,Thunderstorm Wind
+THUNDERSTORM WIND/ TREE,Thunderstorm Wind
+THUNDERSTORM WIND/ TREES,Thunderstorm Wind
+THUNDERSTORM WIND/AWNING,Thunderstorm Wind
+THUNDERSTORM WIND/HAIL,Thunderstorm Wind
+THUNDERSTORM WIND/LIGHTNING,Thunderstorm Wind
+THUNDERSTORM WINDS      LE CEN,Thunderstorm Wind
+THUNDERSTORM WINDS 13,Thunderstorm Wind
+THUNDERSTORM WINDS 2,Thunderstorm Wind
+THUNDERSTORM WINDS 50,Thunderstorm Wind
+THUNDERSTORM WINDS 52,Thunderstorm Wind
+THUNDERSTORM WINDS 53,Thunderstorm Wind
+THUNDERSTORM WINDS 60,Thunderstorm Wind
+THUNDERSTORM WINDS 61,Thunderstorm Wind
+THUNDERSTORM WINDS 62,Thunderstorm Wind
+THUNDERSTORM WINDS 63 MPH,Thunderstorm Wind
+THUNDERSTORM WINDS AND,Thunderstorm Wind
+THUNDERSTORM WINDS FUNNEL CLOU,Thunderstorm Wind
+THUNDERSTORM WINDS G,Thunderstorm Wind
+THUNDERSTORM WINDS G60,Thunderstorm Wind
+THUNDERSTORM WINDS HAIL,Thunderstorm Wind
+THUNDERSTORM WINDS HEAVY RAIN,Thunderstorm Wind
+THUNDERSTORM WINDS LIGHTNING,Thunderstorm Wind
+THUNDERSTORM WINDS SMALL STREA,Thunderstorm Wind
+THUNDERSTORM WINDS URBAN FLOOD,Thunderstorm Wind
+THUNDERSTORM WINDS,Thunderstorm Wind
+THUNDERSTORM WINDS.,Thunderstorm Wind
+THUNDERSTORM WINDS/ FLOOD,Thunderstorm Wind
+THUNDERSTORM WINDS/ HAIL,Thunderstorm Wind
+THUNDERSTORM WINDS/FLASH FLOOD,Thunderstorm Wind
+THUNDERSTORM WINDS/FLOODING,Thunderstorm Wind
+THUNDERSTORM WINDS/FUNNEL CLOU,Thunderstorm Wind
+THUNDERSTORM WINDS/HAIL,Thunderstorm Wind
+THUNDERSTORM WINDS/HEAVY RAIN,Thunderstorm Wind
+THUNDERSTORM WINDS53,Thunderstorm Wind
+THUNDERSTORM WINDSHAIL,Thunderstorm Wind
+THUNDERSTORM WINDSS,Thunderstorm Wind
+THUNDERSTORM WINS,Thunderstorm Wind
+THUNDERSTORM,Thunderstorm Wind
+THUNDERSTORMS WIND,Thunderstorm Wind
+THUNDERSTORMS WINDS,Thunderstorm Wind
+THUNDERSTORMS,Thunderstorm Wind
+THUNDERSTORMW 50,Thunderstorm Wind
+THUNDERSTORMW WINDS,Thunderstorm Wind
+THUNDERSTORMW,Thunderstorm Wind
+THUNDERSTORMWINDS,Thunderstorm Wind
+THUNDERSTROM WIND,Thunderstorm Wind
+THUNDERSTROM WINDS,Thunderstorm Wind
+THUNDERTORM WINDS,Thunderstorm Wind
+THUNDERTSORM WIND,Thunderstorm Wind
+THUNDESTORM WINDS,Thunderstorm Wind
+THUNERSTORM WINDS,Thunderstorm Wind
+TIDAL FLOOD,Coastal Flood
+TIDAL FLOODING,Coastal Flood
+TORNADO DEBRIS,Tornado
+TORNADO F0,Tornado
+TORNADO F1,Tornado
+TORNADO F2,Tornado
+TORNADO F3,Tornado
+TORNADO,Tornado
+TORNADO/WATERSPOUT,Tornado
+TORNADOES  TSTM WIND  HAIL,Tornado
+TORNADOES,Tornado
+TORNADOS,Tornado
+TORNDAO,Tornado
+TORRENTIAL RAIN,Thunderstorm Wind
+TROPICAL DEPRESSION,Tropical Storm
+TROPICAL STORM ALBERTO,Tropical Storm
+TROPICAL STORM DEAN,Tropical Storm
+TROPICAL STORM GORDON,Tropical Storm
+TROPICAL STORM JERRY,Tropical Storm
+TROPICAL STORM,Tropical Storm
+TSTM HEAVY RAIN,Thunderstorm Wind
+TSTM WIND  (G45),Thunderstorm Wind
+TSTM WIND (41),Thunderstorm Wind
+TSTM WIND (G35),Thunderstorm Wind
+TSTM WIND (G40),Thunderstorm Wind
+TSTM WIND (G45),Thunderstorm Wind
+TSTM WIND 40,Thunderstorm Wind
+TSTM WIND 45,Thunderstorm Wind
+TSTM WIND 50,Thunderstorm Wind
+TSTM WIND 51,Thunderstorm Wind
+TSTM WIND 52,Thunderstorm Wind
+TSTM WIND 55,Thunderstorm Wind
+TSTM WIND 65),Thunderstorm Wind
+TSTM WIND AND LIGHTNING,Thunderstorm Wind
+TSTM WIND DAMAGE,Thunderstorm Wind
+TSTM WIND G45,Thunderstorm Wind
+TSTM WIND G58,Thunderstorm Wind
+TSTM WIND,Thunderstorm Wind
+TSTM WIND/HAIL,Thunderstorm Wind
+TSTM WINDS,Thunderstorm Wind
+TSTM WND,Thunderstorm Wind
+TSTM,Thunderstorm Wind
+TSTMW,Thunderstorm Wind
+TSUNAMI,Tsunami
+TUNDERSTORM WIND,Thunderstorm Wind
+TYPHOON,Hurricane (Typhoon)
+Temperature record,Others
+Thundersnow shower,Thunderstorm Wind
+Thunderstorm Wind,Thunderstorm Wind
+Tidal Flooding,Coastal Flood
+Torrential Rainfall,Thunderstorm Wind
+Tstm Wind,Thunderstorm Wind
+UNSEASONABLY COLD,Cold/Wind Chill
+UNSEASONABLY COOL & WET,Cold/Wind Chill
+UNSEASONABLY COOL,Cold/Wind Chill
+UNSEASONABLY DRY,Heat
+UNSEASONABLY HOT,Heat
+UNSEASONABLY WARM & WET,Heat
+UNSEASONABLY WARM AND DRY,Heat
+UNSEASONABLY WARM YEAR,Heat
+UNSEASONABLY WARM,Heat
+UNSEASONABLY WARM/WET,Heat
+UNSEASONABLY WET,Heavy Rain
+UNSEASONAL LOW TEMP,Cold/Wind Chill
+UNSEASONAL RAIN,Others
+UNUSUAL WARMTH,Heat
+UNUSUAL/RECORD WARMTH,Heat
+UNUSUALLY COLD,Cold/Wind Chill
+UNUSUALLY LATE SNOW,Heavy Snow
+UNUSUALLY WARM,Others
+URBAN AND SMALL STREAM FLOOD,Heavy Rain
+URBAN AND SMALL STREAM FLOODIN,Heavy Rain
+URBAN AND SMALL STREAM,Heavy Rain
+URBAN AND SMALL,Heavy Rain
+URBAN FLOOD LANDSLIDE,Heavy Rain
+URBAN FLOOD,Heavy Rain
+URBAN FLOODING,Heavy Rain
+URBAN FLOODS,Heavy Rain
+URBAN SMALL STREAM FLOOD,Heavy Rain
+URBAN SMALL,Heavy Rain
+URBAN/SMALL FLOODING,Heavy Rain
+URBAN/SMALL STREAM  FLOOD,Heavy Rain
+URBAN/SMALL STREAM FLOOD,Heavy Rain
+URBAN/SMALL STREAM FLOODING,Heavy Rain
+URBAN/SMALL STREAM,Heavy Rain
+URBAN/SMALL STRM FLDG,Heavy Rain
+URBAN/SMALL,Heavy Rain
+URBAN/SML STREAM FLD,Heavy Rain
+URBAN/SML STREAM FLDG,Heavy Rain
+URBAN/STREET FLOODING,Heavy Rain
+Unseasonable Cold,Cold/Wind Chill
+Urban Flood,Heavy Rain
+Urban Flooding,Heavy Rain
+Urban flood,Heavy Rain
+VERY DRY,Others
+VERY WARM,Others
+VOG,Volcanic Ash
+VOLCANIC ASH,Volcanic Ash
+VOLCANIC ASHFALL,Volcanic Ash
+VOLCANIC ERUPTION,Volcanic Ash
+Volcanic Ash Plume,Volcanic Ash
+Volcanic Ash,Volcanic Ash
+WAKE LOW WIND,Strong Wind
+WALL CLOUD,Tornado
+WALL CLOUD/FUNNEL CLOUD,Tornado
+WARM DRY CONDITIONS,Others
+WARM WEATHER,Others
+WATER SPOUT,Tornado
+WATERSPOUT FUNNEL CLOUD,Tornado
+WATERSPOUT TORNADO,Tornado
+WATERSPOUT,Tornado
+WATERSPOUT-,Tornado
+WATERSPOUT-TORNADO,Tornado
+WATERSPOUT/ TORNADO,Tornado
+WATERSPOUT/,Tornado
+WATERSPOUT/TORNADO,Tornado
+WATERSPOUTS,Tornado
+WAYTERSPOUT,Tornado
+WET MICROBURST,Thunderstorm Wind
+WET SNOW,Heavy Snow
+WET WEATHER,Others
+WHIRLWIND,Thunderstorm Wind
+WILD FIRES,Wildfire
+WILD/FOREST FIRE,Wildfire
+WILD/FOREST FIRES,Wildfire
+WILDFIRE,Wildfire
+WILDFIRES,Wildfire
+WIND ADVISORY,High Wind
+WIND AND WAVE,High Wind
+WIND CHILL,High Wind
+WIND CHILL/HIGH WIND,High Wind
+WIND DAMAGE,High Wind
+WIND GUSTS,High Wind
+WIND STORM,High Wind
+WIND,High Wind
+WIND/HAIL,High Wind
+WINDS,High Wind
+WINTER MIX,Winter Weather
+WINTER STORM HIGH WINDS,Winter Storm
+WINTER STORM,Winter Storm
+WINTER STORM/HIGH WIND,Winter Storm
+WINTER STORM/HIGH WINDS,Winter Storm
+WINTER STORMS,Winter Storm
+WINTER WEATHER MIX,Winter Weather
+WINTER WEATHER,Winter Weather
+WINTER WEATHER/MIX,Winter Weather
+WINTERY MIX,Winter Weather
+WINTRY MIX,Winter Weather
+WND,Winter Weather
+Wet Month,Others
+Wet Year,Others
+Whirlwind,Thunderstorm Wind
+Wind,High Wind
+Wind Damage,High Wind
+Winter Weather,Winter Weather
+Wintry Mix,Winter Weather
+Wintry mix,Winter Weather
+blowing snow,Blizzard
+coastal flooding,Coastal Flood
+gradient wind,Tropical Depression
+small hail,Hail
+wet micoburst,Thunderstorm Wind
